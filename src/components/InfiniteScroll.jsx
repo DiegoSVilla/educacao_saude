@@ -48,7 +48,7 @@ const InfiniteScroll = () => {
       setDisplayedQuestions((prevQuestions) => [...prevQuestions, ...nextQuestions]);
       setIndex((prevIndex) => prevIndex + 4); // Atualizar o índice
       setLoading(false);
-    }, 1000);
+    }, 100);
   };
 
   // Efeito para detectar o scroll

@@ -1,3 +1,10 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    color: black; /* Cor do texto para o modo escuro */
+    background-color: white; /* Fundo claro para o modo escuro */
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

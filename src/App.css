@@ -1,6 +1,10 @@
+:root {
+  color-scheme: normal !important; /* Desativa o esquema de cor automático */
+}
+
 @media (prefers-color-scheme: dark) {
   body {
-    color: black; /* Cor do texto para o modo escuro */
+    color: black !important; /* Cor do texto para o modo escuro */
     background-color: white; /* Fundo claro para o modo escuro */
   }
 }
@@ -19,6 +23,7 @@
 /* Menu dropdown básico */
 .menu-icon {
   position: fixed;
+  color: black;
   top: 10px;
   left: 10px;
   z-index: 1000;
@@ -40,6 +45,7 @@
   top: 50px;
   left: 0;
   background-color: white;
+  color: black;
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 10px;
